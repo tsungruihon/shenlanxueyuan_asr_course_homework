@@ -1,1 +1,1 @@
-这个是我参加深蓝学院语音识别课程的作业记录
+## This is the homework record of attending DEEP BLUE ASR Course
