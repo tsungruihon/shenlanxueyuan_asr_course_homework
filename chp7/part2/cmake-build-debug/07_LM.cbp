@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="07_LM"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/petertseng/Desktop/Programming/kaldi_test/07-LM/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/petertseng/Desktop/Programming/kaldi_test/07-LM/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/petertseng/Desktop/Programming/kaldi_test/07-LM/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/petertseng/Desktop/Programming/kaldi_test/07-LM/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/petertseng/Desktop/Programming/kaldi_test/07-LM/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/petertseng/Desktop/Programming/kaldi_test/07-LM/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/petertseng/Desktop/Programming/kaldi_test/07-LM/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/petertseng/Desktop/Programming/kaldi_test/07-LM/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/petertseng/Desktop/Programming/kaldi_test/07-LM/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/petertseng/Desktop/Programming/kaldi_test/07-LM/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/petertseng/Desktop/Programming/kaldi_test/07-LM/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/petertseng/Desktop/Programming/kaldi_test/07-LM/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/petertseng/Desktop/Programming/kaldi_test/07-LM/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/petertseng/Desktop/Programming/kaldi_test/07-LM/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/petertseng/Desktop/Programming/kaldi_test/07-LM/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="07_LM">
+				<Option output="/Users/petertseng/Desktop/Programming/kaldi_test/07-LM/cmake-build-debug/07_LM" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/petertseng/Desktop/Programming/kaldi_test/07-LM/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/petertseng/Desktop/Programming/kaldi_test/07-LM/."/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/petertseng/Desktop/Programming/kaldi_test/07-LM/cmake-build-debug/Makefile&quot;  VERBOSE=1 07_LM"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/petertseng/Desktop/Programming/kaldi_test/07-LM/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/petertseng/Desktop/Programming/kaldi_test/07-LM/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/petertseng/Desktop/Programming/kaldi_test/07-LM/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="07_LM/fast">
+				<Option output="/Users/petertseng/Desktop/Programming/kaldi_test/07-LM/cmake-build-debug/07_LM" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/petertseng/Desktop/Programming/kaldi_test/07-LM/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/petertseng/Desktop/Programming/kaldi_test/07-LM/."/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/petertseng/Desktop/Programming/kaldi_test/07-LM/cmake-build-debug/Makefile&quot;  VERBOSE=1 07_LM/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/petertseng/Desktop/Programming/kaldi_test/07-LM/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/petertseng/Desktop/Programming/kaldi_test/07-LM/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/petertseng/Desktop/Programming/kaldi_test/07-LM/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/petertseng/Desktop/Programming/kaldi_test/07-LM/lab3_lm.C">
+			<Option target="07_LM"/>
+		</Unit>
+		<Unit filename="/Users/petertseng/Desktop/Programming/kaldi_test/07-LM/lab3_lm.H">
+			<Option target="07_LM"/>
+		</Unit>
+		<Unit filename="/Users/petertseng/Desktop/Programming/kaldi_test/07-LM/lab3_lm.h">
+			<Option target="07_LM"/>
+		</Unit>
+		<Unit filename="/Users/petertseng/Desktop/Programming/kaldi_test/07-LM/lang_model.C">
+			<Option target="07_LM"/>
+		</Unit>
+		<Unit filename="/Users/petertseng/Desktop/Programming/kaldi_test/07-LM/lang_model.H">
+			<Option target="07_LM"/>
+		</Unit>
+		<Unit filename="/Users/petertseng/Desktop/Programming/kaldi_test/07-LM/lang_model.h">
+			<Option target="07_LM"/>
+		</Unit>
+		<Unit filename="/Users/petertseng/Desktop/Programming/kaldi_test/07-LM/main.C">
+			<Option target="07_LM"/>
+		</Unit>
+		<Unit filename="/Users/petertseng/Desktop/Programming/kaldi_test/07-LM/util.C">
+			<Option target="07_LM"/>
+		</Unit>
+		<Unit filename="/Users/petertseng/Desktop/Programming/kaldi_test/07-LM/util.H">
+			<Option target="07_LM"/>
+		</Unit>
+		<Unit filename="/Users/petertseng/Desktop/Programming/kaldi_test/07-LM/util.h">
+			<Option target="07_LM"/>
+		</Unit>
+		<Unit filename="/Users/petertseng/Desktop/Programming/kaldi_test/07-LM/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

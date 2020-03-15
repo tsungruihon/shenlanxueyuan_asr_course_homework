@@ -1,0 +1,1 @@
+/Library/Developer/CommandLineTools/usr/bin/c++  -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/07_LM.dir/lab3_lm.C.o CMakeFiles/07_LM.dir/lang_model.C.o CMakeFiles/07_LM.dir/main.C.o CMakeFiles/07_LM.dir/util.C.o  -o 07_LM 
