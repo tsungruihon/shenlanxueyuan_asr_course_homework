@@ -1,0 +1,12 @@
+// Create a.fst
+fstcompile --isymbols=a_isyms.txt --osymbols=a_osyms.txt a_text.fst a_binary.fst
+// Visualize a.fst
+fstdraw --isymbols=a_isyms.txt --osymbols=a_osyms.txt <a_binary.fst | dot -Tjpg -Gdpi=300> a_fst.jpg
+
+// Create and visualize b.fst
+fstcompile --isymbols=b_isyms.txt --osymbols=b_osyms.txt b_text.fst b_binary.fst
+fstdraw --isymbols=b_isyms.txt --osymbols=b_osyms.txt <b_binary.fst | dot -Tjpg -Gdpi=300> b_fst.jpg
+
+// Compose a.fst and b.fst
+fstcompose a_binary.fst b_binary.fst out.fst
+fstdraw --isymbols=a_isyms.txt --osymbols=b_osyms.txt <out.fst | dot -Tjpg -Gdpi=300> out.jpg
